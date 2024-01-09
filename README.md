@@ -6,4 +6,6 @@ Apart of lectures, the website also contains applications for the lecture conten
 
 In the future, I would like to expand this website to cover other courses as well. For a science subject like biology or chemistry, we would have research papers in place of the applications sections.
 
+This web site was coded by Ariya Narayanasamy using HTML, CSS and Bootstrap's CSS and JavaScript.
+
 Disclaimer: This website was made for educational purposes. We do not own any of the content uploaded on this website.
