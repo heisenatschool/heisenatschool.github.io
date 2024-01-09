@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+.course-title {
+    width: 100%;
+    min-height: 10vh;
+    position: relative;
+    color: #ecf0f1;
+    background: #0984e3;
+    padding: 50px 20px;
+}
+.course-title-text {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.course-title-text p, h1 {
+    margin: 0;
+    padding: 0;
+}
+.course-title-text h1 {
+    font-size: 35px;
+}
+.course-content {
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    background: #f1f2f6;
+}
+.course-content div {
+    float: left;
+    margin: 1%;
+}
+.course-section-headers {
+    width: 15%;
+}
+.course-border {
+    background: #ffffff;
+    padding: 0 10px;
+    border: 1px solid rgba(20, 20, 20, 0.1);
+    box-shadow: 0 0 3px #ccc;
+}
+.course-section-headers ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.course-border h4 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+.course-section-headers ul li, h6 {
+    margin: 12px 0;
+    padding: 0;
+}
+.course-section-headers ul li * {
+    font-size: 15px;
+}
+.link {
+    color: #0984e3;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.course-videos {
+    width: 60%;
+    background: #fff;
+}
+.course-info {
+    width: 15%;
+    background: #fff;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.accordion, .accordion-item, .accordion-collapse {
+    width: 98%;
+}
+.disclaimer {
+    font-size: 10px;
+    color: #333;
+    padding: 20px 0;
+}
